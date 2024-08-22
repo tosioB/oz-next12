@@ -86,3 +86,5 @@ export const data = [
         description: '호랑이 털의 무늬는 지문 같은 역할을 한다.'
     },
 ]
+
+export const favorites = []

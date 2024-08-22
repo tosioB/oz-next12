@@ -7,6 +7,6 @@ export default function handler(req, res) {
   if (animal) {
     res.status(200).json(animal);
   } else {
-    res.status(404).json("no data");
+    res.status(404).send("no data");
   }
 }
